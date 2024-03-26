@@ -1,0 +1,31 @@
+{
+  "name": "clase-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start:pg": "nodemon server-with-pg.js",
+    "start:mysql": "nodemon server-with-mysql.js",
+    "start:local": "nodemon server-with-local.js",
+    "web": "npx servor ./web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.19.1",
+    "mysql2": "^3.9.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.1",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
