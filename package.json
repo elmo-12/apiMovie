@@ -9,7 +9,7 @@
     "start:mysql": "nodemon server-with-mysql.js",
     "start:local": "nodemon server-with-local.js",
     "web": "npx servor ./web",
-    "build": "pnpm run start:pg"
+    "build": "node main.js"
   },
   "keywords": [],
   "author": "",
