@@ -2,7 +2,7 @@
   "name": "clase-3",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "start:pg": "nodemon server-with-pg.js",
