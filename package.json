@@ -5,11 +5,11 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start:pg": "nodemon server-with-pg.js",
+    "start:pg": "node main.js",
     "start:mysql": "nodemon server-with-mysql.js",
     "start:local": "nodemon server-with-local.js",
     "web": "npx servor ./web",
-    "build": "node main.js"
+    "build": "npm run start:pg"
   },
   "keywords": [],
   "author": "",
