@@ -8,7 +8,8 @@
     "start:pg": "nodemon server-with-pg.js",
     "start:mysql": "nodemon server-with-mysql.js",
     "start:local": "nodemon server-with-local.js",
-    "web": "npx servor ./web"
+    "web": "npx servor ./web",
+    "build": "pnpm run start:pg"
   },
   "keywords": [],
   "author": "",
