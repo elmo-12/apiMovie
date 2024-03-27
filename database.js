@@ -5,8 +5,8 @@ export const sequelize = new Sequelize('moviesdb', 'fl0user', 'r5m3JuNbHKnC', {
   dialect: 'postgres',
   dialectOptions: {
     ssl: {
-      require: true,
-      rejectUnauthorized: false // Esto puede ser necesario en entornos de desarrollo, pero NO se recomienda en producción
+      require: true
+      // rejectUnauthorized: false // Esto puede ser necesario en entornos de desarrollo, pero NO se recomienda en producción
     }
   },
   ssl: true,
